@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:background="#FF0088FE">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:text="查询数据"
+                android:gravity="center"
+                android:textColor="#FFF"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FF0088FE"
+                android:textColor="#FFF"
+                android:layout_gravity="right"
+                android:text="关于"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="72dp"
+                android:text="开启查询"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+            <Switch
+                android:id="@+id/toggle_bt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="72dp"
+                android:textSize="20dp"
+                android:text="温度 °c:"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/wendu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:text="未获取"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="72dp"
+                android:textSize="20dp"
+                android:text="湿度 %:"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/shidu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:text="未获取"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="72dp"
+                android:textSize="20dp"
+                android:text="烟雾 °:"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/yanwu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:text="未获取"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="72dp"
+                android:textSize="20dp"
+                android:text="光照 °:"
+                android:gravity="left"/>
+            <TextView
+                android:id="@+id/guanzhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:text="未获取"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
